@@ -1,0 +1,5 @@
+# dsh-swipe bundle patch: inserts the plugin into a profile's layer stack.
+# The plugin is client-only; the host entry is a no-op placeholder.
+- insert:
+    - id: dsh-swipe
+      name: 'dsh-swipe'
